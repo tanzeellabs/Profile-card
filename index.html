@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+
+    <style>
+        body {
+            background-color: #e6f0ff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: white;
+            width: 300px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #2563eb;
+            font-size: 25px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .email {
+            color: #2563eb;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="profile-card">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-glnQvYcKQEf_-RiZGHz9GFqBJzFN6WxpJJokYBmpow&s=10"
+                 alt="Profile Picture">
+
+            <h1>Abdullah</h1>
+
+            <p class="email">example@gmail.com</p>
+
+            <p>
+                Hello! I am a student learning
+                HTML and CSS. I enjoy designing
+                websites and learning new skills.
+            </p>
+
+            <button>Contact Me</button>
+
+        </section>
+    </main>
+
+</body>
+</html>
